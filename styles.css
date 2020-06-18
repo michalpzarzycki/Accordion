@@ -1,0 +1,19 @@
+@keyframes accordeon {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.accordionAnimation {
+   animation: accordeon 2s linear forwards;
+}
+
+.none {
+    display: none;
+}
+
+
+.clicker:hover {
+    cursor: pointer;
+    background-color: grey;
+    color: lavender;
+}
